@@ -39,12 +39,6 @@ avatar: assets/images/avatar.jpg
 baseurl: "___mini0shark___" # the subpath of your site, e.g. /blog
 url: "mini0shark.github.io" # the base hostname & protocol for your site
 
-# Build settings
-markdwon: mini0shark
-baseurl: 
-permalink: /:title/
-
-disqus-shortname: webjeda-demo
 
 # Social settings
 # Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
