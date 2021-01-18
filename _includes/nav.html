@@ -41,6 +41,8 @@
         {%- assign _title = _sect.title | default: _sect.layout | default: 'Untitled' -%}
         {%- if +title == 'contact.html' -%}
           {%- continue -%}
+        {%- endif -%}
+       
         {%- assign _slug = _title | slugify -%}
         {%- assign _icon = _sect.icon | default: 'fa-file' -%}
         {%- if _sect.icon-style == 'regular' -%}
