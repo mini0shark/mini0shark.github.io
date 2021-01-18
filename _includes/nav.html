@@ -39,7 +39,7 @@
     {%- unless _sections == null -%}
       {%- for _sect in _sections -%}
         {%- assign _title = _sect.title | default: _sect.layout | default: 'Untitled' -%}
-        {%- if _title == 'contact' -%}
+        {%- if _title == 'Contact' -%}
         {%- else -%}
           {%- assign _slug = _title | slugify -%}
           {%- assign _icon = _sect.icon | default: 'fa-file' -%}
