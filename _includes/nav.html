@@ -40,17 +40,16 @@
       {%- for _sect in _sections -%}
         {%- assign _title = _sect.title | default: _sect.layout | default: 'Untitled' -%}
         {%- if _title == 'contact.html' -%}
-          {%- continue -%}
-        {%- endif -%}
-       
-        {%- assign _slug = _title | slugify -%}
-        {%- assign _icon = _sect.icon | default: 'fa-file' -%}
-        {%- if _sect.icon-style == 'regular' -%}
-          {%- assign _class = 'icon-r' -%}
-        {%- elsif _sect.icon-style == 'brands' -%}
-          {%- assign _class = 'icon-b' -%}
-        {%- else -%}
-          {%- assign _class = 'icon' -%}
+       {%- else -%}
+          {%- assign _slug = _title | slugify -%}
+          {%- assign _icon = _sect.icon | default: 'fa-file' -%}
+          {%- if _sect.icon-style == 'regular' -%}
+            {%- assign _class = 'icon-r' -%}
+          {%- elsif _sect.icon-style == 'brands' -%}
+            {%- assign _class = 'icon-b' -%}
+          {%- else -%}
+            {%- assign _class = 'icon' -%}
+          {%- endif -%}
         {%- endif -%}
         <li><a href="#{{- _slug -}}" id="{{- _slug -}}-link" class="scrolly"><span class="{{ _class }} {{ _icon }}">{{- _title -}}</span></a></li>
       {%- endfor -%}
