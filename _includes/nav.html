@@ -39,7 +39,7 @@
     {%- unless _sections == null -%}
       {%- for _sect in _sections -%}
         {%- assign _title = _sect.title | default: _sect.layout | default: 'Untitled' -%}
-        {%- if +title == 'contact.html' -%}
+        {%- if _title == 'contact.html' -%}
           {%- continue -%}
         {%- endif -%}
        
