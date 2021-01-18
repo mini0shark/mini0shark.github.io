@@ -36,7 +36,7 @@ email: your-email@example.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "___mini0shark___" # the subpath of your site, e.g. /blog
+baseurl: "___mini0shark___asdfasdf" # the subpath of your site, e.g. /blog
 url: "mini0shark.github.io" # the base hostname & protocol for your site
 
 # Social settings
