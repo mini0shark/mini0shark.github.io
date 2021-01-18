@@ -26,10 +26,10 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 차근차근 쌓아가는<br>개발여정
-author: Develaniper
+title: 차근차근 쌓아가는 개발여정
 subtitle: ♥
 description: 하나 둘 차근차근 나아가다보면 어제보다 더 좋은 개발자가 되어가는 나를 발견 할 수 있지 않을까요?
+author: Develaniper
 email: Secret
 avatar: assets/images/avatar.jpg
 
