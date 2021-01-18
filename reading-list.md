@@ -1,5 +1,5 @@
 ---
-title: 요약
+title: Subtitle
 subtitle: 프로젝트 내역
 layout: "page"
 icon: fa-book
