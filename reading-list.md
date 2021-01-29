@@ -1,6 +1,6 @@
 ---
-title: Reading List
-subtitle: a list of books I read
+title: Summary
+subtitle: 프로젝트 내역
 layout: "page"
 icon: fa-book
 order: 3

@@ -26,35 +26,29 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-subtitle: Your awesome subtitle
-description: >- # this means to ignore newlines until "baseurl:"
-  This is the demo site for a Jekyll theme version of
-  HTML5 UP's sleek, responsive site template Prologue.
-author: Your Incredible Name
-email: your-email@example.com
+author: Develaniper
+title: 차근차근 쌓아가는 개발여정
+subtitle: 개발여정-♥
+description: 하나 둘 차근차근 나아가다보면 어제보다 더 좋은 개발자가 되어가는 나를 발견 할 수 있지 않을까요?
+email: Secret
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mini0shark.github.io" # the base hostname & protocol for your site
 
 # Social settings
 # Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url:
-facebook_url:
-googleplus_url:
-instagram_url:
-linkedin_url:
-github_url:
-stackoverflow_url:
-pinterest_url:
-slack_url:
-dribbble_url:
+twitter_url: null
+facebook_url: null
+googleplus_url: null
+instagram_url: null
+linkedin_url: null
+github_url: null
+stackoverflow_url: null
+pinterest_url: null
+slack_url: null
+dribbble_url: null
 
 # Google Analytics Tracking ID goes here:
 google_analytics:
