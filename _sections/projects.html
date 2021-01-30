@@ -4,8 +4,8 @@ icon: fa-th
 order: 2
 ---
 
-{% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse  %}
 <link rel="stylesheet" href="css/projects.css">
+{% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse  %}
 <div class="col s12 switch">
   <label>
     Show forked projects
